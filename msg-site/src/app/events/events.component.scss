@@ -1,0 +1,107 @@
+.main {
+    padding-inline: 15rem;
+}
+
+.title {
+	color: var(--primary-clr);
+	position: relative;
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 5rem;
+}
+
+.events {
+	margin-bottom: 2rem;
+}
+
+.event-container {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	text-align: start;
+	place-items: center;
+	height: 13rem;
+	box-shadow: 0 0 5px 3px var(--neutral-200);
+	transition: box-shadow 300ms ease-in-out;
+	position: relative;
+}
+
+.event-container:hover {
+	box-shadow: 0 0 10px 3px var(--neutral-400);
+}
+
+.event-container:before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 5px;
+	background: var(--primary-clr);
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: opacity 300ms ease-in-out;
+}
+
+.event-container:hover::before {
+	opacity: 1;
+}
+
+.event-date {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 2.5rem;
+	padding-right: 1.5rem;
+}
+
+.day {
+	font-weight: 700;
+	font-size: 2.2rem;
+}
+
+.month {
+	font-weight: 300;
+	font-size: 2.2rem;
+}
+
+.event-details {
+	cursor: pointer;
+	text-align: start;
+	position: relative;
+}
+
+.event-details::before {
+	content: "";
+	position: absolute;
+	height: 150%;
+	width: 1px;
+	background-color: black;
+	left: -2rem;
+	top: -25%;
+}
+
+.geo-time-group {
+	display: flex;
+	gap: 0.4rem;
+	color: var(--neutral-600);
+	font-weight: 300;
+	font-size: 0.9rem;
+}
+
+.event-name {
+	font-size: 1.2rem;
+	color: var(--primary-clr);
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.event-description {
+	font-weight: 300;
+}
+
+.btn-outline {
+	bottom: 0;
+	right: 0;
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}

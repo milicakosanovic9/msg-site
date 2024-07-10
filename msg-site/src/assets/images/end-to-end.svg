@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Ebene_1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#6D6E71;stroke-width:2;}
+	.st1{fill:none;stroke:#A01C43;stroke-width:2;}
+</style>
+<g>
+	<polyline class="st0" points="76.1,67.6 76.1,80.4 88.9,80.4  "/>
+	<polyline class="st0" points="12.1,19.6 24.9,19.6 24.9,32.4  "/>
+	<path class="st0" d="M76.5,80.4c8.6-7.3,14-18.2,14-30.4c0-22.1-17.9-40-40-40c-5.6,0-10.9,1.1-15.7,3.2"/>
+	<path class="st0" d="M24.5,19.6c-8.6,7.3-14,18.2-14,30.4c0,22.1,17.9,40,40,40c5.6,0,10.9-1.1,15.7-3.2"/>
+	<path class="st1" d="M50.5,74c0,0,17.6-7.4,17.6-22.4V34c0,0-7.9-4.8-17.6-4.8S32.9,34,32.9,34v17.6C32.9,66.6,50.5,74,50.5,74z"/>
+	<polyline class="st0" points="60.1,45.2 53.7,51.6 47.3,58 40.9,51.6  "/>
+</g>
+</svg>

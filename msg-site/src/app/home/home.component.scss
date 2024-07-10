@@ -1,0 +1,405 @@
+.main {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 5rem;
+    padding-block: 5rem;
+}
+
+.content-group {
+    position: relative;
+    bottom: 5rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.title-red {
+    color: var(--primary-clr);  
+}
+
+.card-group {
+    --_gap: 2rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--_gap);
+    place-items: center;
+}
+
+.card-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--_gap);
+}
+
+.card { 
+    --border-radius: 20px;
+    position: relative;
+    width: 16rem;
+    aspect-ratio: .84/1;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    padding-inline-end: 3rem;
+    background-color: var(--neutral-200);
+    cursor: default;
+}
+
+.card > img {
+    width: 5rem;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-clr);
+}
+
+.card-details {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.card-flip-details {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    background-color: var(--primary-clr);
+    color: var(--white);
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    top: 50%;
+    left: 50%;
+    font-size: 17px;
+    font-weight: 300;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 1.5rem;
+    border-radius: calc(var(--border-radius) / 2);
+    transition: opacity 300ms ease-in-out;
+
+}
+
+.card:hover .card-flip-details {
+    opacity: 1;
+}
+
+.details {
+    font-size: 1.3rem;
+}
+
+.btn-outline {
+    font-size: .9rem;
+    padding-block: .7rem;
+    padding-inline: 1.9rem;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    margin: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 75vh;
+    gap: 2rem;
+    width: 90%;
+}
+
+.left-container{
+    height: 100%;
+    width: 100%;
+    
+
+    .text{
+        margin: 2rem;
+        color: #A01441;;
+    }
+
+    .msg-left{
+        margin: 2rem;
+    }
+
+    .about-us{
+        cursor: pointer;
+            background-color: transparent;
+            color: #A01441;
+            border: 2px solid #A01441;
+            width: 8rem;
+            height: 3rem;
+            border-radius: 20px;
+            transition: background-color 0.5s, color 0.5s;
+            margin: 2rem;
+            &:hover {
+                background-color: #A01441;
+                color: white;
+            }
+        }
+    }
+
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+    .text2{
+        color: #A01441;
+        text-align: center;
+    }
+    
+    .main-paragraph{
+        text-align: center;
+    }
+    
+}
+
+.main-container-add{
+    border: solid black thin;
+    border-radius: 10px;
+    width: 80%;
+    height: 45%;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    padding-left: 2rem;
+    margin-left: 3rem;
+}
+
+.image-div{
+    width: 100%;
+    height: 65%;
+    padding-right: 1rem;
+}
+
+#photo-main{
+    height: 100%;
+    float: right;
+}
+
+.button-main-container-add{
+    cursor: pointer;
+            background-color: transparent;
+            color: #A01441;
+            border: 2px solid #A01441;
+            width: 8rem;
+            height: 3rem;
+            border-radius: 20px;
+            transition: background-color 0.5s, color 0.5s;
+            margin: 2rem;
+            letter-spacing: 0.2px;
+            &:hover {
+                background-color: #A01441;
+                color: white;
+            }
+        }
+
+// desni kontejner sredina
+
+
+.right-container{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+    .red-text{
+        color: #A01441;
+    }
+
+    .right-paragraph{
+        margin: 4rem;
+        font-size: x-large;
+    }
+
+    .top-right-container{
+        border: solid #f1f1f1 thin;
+        height: 60%;
+        width: 75%;
+        border-radius: 10px;
+        background-color: #f1f1f1;
+    }
+
+    .main-right-container{
+        height: 45%;
+        width: 75%;
+        border-radius: 5%;
+        overflow: hidden; 
+        position: relative; 
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .btn {
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-80%,-80%); /* Centrirajte dugme unutar container-a */
+            background-color: transparent; /* Boja pozadine dugmeta */
+            color: #fff; /* Boja teksta na dugmetu */
+            padding: 2px 10px;
+            border: 2px solid white;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        
+        .btn:hover {
+            background-color: white; 
+            color: #A01441;
+            transition: background-color 0.5s, color 0.5s;
+        }
+    }
+
+    .bottom-right-container{
+        width: 75%;
+        height: 35%;
+
+        .follow-us{
+            text-align: center;
+            color: #A01441;
+        }
+    }
+}
+
+
+.social-icons {
+    display: flex;
+  }
+  
+.icon-link {
+    text-decoration: none;
+    background-color: #6F6F6F;
+    color: #fff;
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    transition: background-color 0.3s;
+  }
+
+.icon-link img {
+    width: 30px; 
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+.icon-link fa-icon {
+    justify-content: center;
+    align-items: center;
+    line-height:30px;
+    font-size:30px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    margin-left: 15%;
+    padding-top: 20%;
+  }
+  
+.icon-link:hover {
+    background-color: #A01441; /* Promena boje na hover */
+  }
+
+// Drugi paragraf - Milica 
+
+.second_container{
+    margin-top: 15rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    height: 105vh;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+.second_container img{
+    width: 22%;
+    height: 29%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.left-second-container{     
+    width: 40%;
+    height:83%;
+    margin: 3rem;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.left-second-container h2{
+    margin-left: 2rem;
+    color: #A01441;
+}
+
+.left-second-container p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.right-second-container{
+    width: 55%;
+    height: 83%;
+    margin: 3rem;
+}
+#p1{
+    margin: 2rem;
+    font-weight: lighter;
+}
+
+#p2{
+    color: #A01441;
+    margin: 2rem;
+    font-size: xx-large;
+}
+
+#p3{
+    margin: 2rem;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.btn-second-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.get-in-touch{
+    cursor: pointer;
+            background-color: transparent;
+            color: #A01441;
+            border: 1.5px solid #A01441;
+            width: 10rem;
+            height: 3rem;
+            border-radius: 40px;
+            transition: background-color 0.5s, color 0.5s;
+            margin: 3rem;
+            &:hover {
+                background-color: #A01441;
+                color: white;
+            }
+}

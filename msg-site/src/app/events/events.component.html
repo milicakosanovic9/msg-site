@@ -1,0 +1,27 @@
+<main class="main">
+	<h2 class="title">EVENTS</h2>
+	<section *ngFor="let event of events" class="events">
+		<div class="event-container">
+			<p class="event-date">
+				<span class="day">{{ event.day }}</span>
+				<span class="month">{{ event.month }}</span>
+			</p>
+			<article class="event-details" (click)="event.goToLink()">
+				<div class="geo-time-group">
+					<span>{{ event.date }}</span> |
+					<span>{{ event.time }}</span> |
+					<span>{{ event.location }}</span>
+				</div>
+				<h3 class="event-name">
+					{{ event.name }}
+				</h3>
+				<div class="event-description">
+					{{ event.description }}
+				</div>
+			</article>
+			<a class="btn-outline" href="{{ event.link }}" target="_blank">
+				more
+			</a>
+		</div>
+	</section>
+</main>

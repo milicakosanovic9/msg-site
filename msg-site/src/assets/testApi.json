@@ -1,0 +1,53 @@
+{
+	"statusCode": 200,
+	"body": [
+		{
+			"date": "October 24, 2023",
+			"time": "9:30 am – 4:30 pm EDT",
+			"location": "In-person, Toronto",
+			"name": "Co-creation Sprint – In-person",
+			"description": "Managing Surge Capacity in Travel Insurance is the topic for this co-creation sprint in partnership with The Travel Health Insurance Association of Canada.",
+			"link": "https://www.msg-global.com/event/co-creation-innovation-sprint-in-person-6"
+		},
+		{
+			"date": "October 31 - November 3, 2023",
+			"time": "9:30 am – 4:30 pm CEST",
+			"location": "In-person, The Netherlands",
+			"name": "Co-creation Innovation Sprint – In-person",
+			"description": "Join us in The Netherlands to explore the most critical challenges using Design Thinking and develop real solution blueprints with some of the world’s top insurance organizations!",
+			"link": "https://www.msg-global.com/event/co-creation-innovation-sprint-in-person-5"
+		},
+		{
+			"date": "November 2, 2023",
+			"time": "10:00 am – 4:00 pm EDT",
+			"location": "In-person, Toronto",
+			"name": "Lego® Serious Play® methodology – In-person",
+			"description": "Experience a groundbreaking approach to problem-solving in our innovation session, introducing the revolutionary LEGO® Serious Play® methodology to Cookhouse Labs.",
+			"link": "https://www.msg-global.com/event/innovation-playbook-lego-in-person-4"
+		},
+		{
+			"date": "November 7, 2023",
+			"time": "10:00 am - 4:00 pm EST",
+			"location": "In-person, Toronto",
+			"name": "Design Tools Masterclass - In-person",
+			"description": "Join this workshop to learn about the fundamental Design Tools and which ones suit your business needs, which are the most challenging and the easiest to use. Let our UX/UI designer walk you through the process of choosing the right tool.",
+			"link": "https://www.msg-global.com/event/design-tools-masterclass"
+		},
+		{
+			"date": "November 21, 2023",
+			"time": "10:00 am - 4:00 pm EST",
+			"location": "In-person, Toronto",
+			"name": "Google Sprint Masterclass - In-person",
+			"description": "Explore what you can accomplish using Google Sprint and learn how to ensure you keep solving problems in just five days!",
+			"link": "https://www.msg-global.com/event/google-sprint-masterclass-in-person"
+		},
+		{
+			"date": "December 5, 2023",
+			"time": "11:00 am - 3:00 pm EST",
+			"location": "Online Event, Zoom",
+			"name": "Train the Trainer Masterclass",
+			"description": "Take advantage of the opportunity to allow your innovation coaches, managers and innovation leaders to expand their knowledge on the topic and learn new skills from our Innovation Coaches.",
+			"link": "https://www.msg-global.com/event/train-the-trainer-masterclass"
+		}
+	]
+}
